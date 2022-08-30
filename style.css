@@ -1,33 +1,29 @@
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#centerControl {
-  
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%,-50%);
-}
-
-#bodyContainer {
+main {
     background-color: hsl(0, 0%, 100%);
     text-align: center;
     border-radius: 25px;
     padding: 20px;
 }
 
-#qrCodeImage {
-    display: block;
+.qrCodeImage {
     border-radius: 25px;
     width: 275px;
 }
 
-#headerText {
+h1 {
     width: 0;
     min-width: 100%;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     color: hsl(0, 0%, 0%, 1)
 
@@ -36,7 +32,7 @@ body {
 p {
     width: 0;
     min-width: 100%;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
 }
